@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*
+    
+    HTML: (Pode somente um Elemento)
+    Tudo que eu colocoar em HTML e precisar indentificar é o 'id' (HTML)
+    Agora em CSS é em "#" (CSS)
+
+    Class: (Pode varios elementos)
+    Em HTML é 'class' (HTML)
+    Em CSS é '.' (CSS)
+*/
+
+body {
+    background-color: hsla(28, 54%, 89%, 0.616);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #024959;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #012E40;
+    color: white;
+}
+
+h2{
+    color: #026773;
+}
+
+.basico{
+    color: aqua;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: aquamarine;
+}
+
+.avancado{
+    color: rgb(0, 255, 221);
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.685);
+}
+
