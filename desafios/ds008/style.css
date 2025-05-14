@@ -92,7 +92,16 @@ body{
     border-radius: 10px;
 }
 
+.task-item i {
+    background-color: #41b883;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+}
 
+.task-item i:hover{
+    cursor: pointer;
+}
 /* Utilites*/
 
 .error{
@@ -105,6 +114,7 @@ body{
 
 .completed{
     text-decoration: line-through;
+    color: gray
 }
 
 
