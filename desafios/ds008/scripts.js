@@ -1,15 +1,11 @@
 const inputElement = document.querySelector(".new-task-input");
 const addTaskButton = document.querySelector(".new-task-button");
-
 const taskContainer = document.querySelector('.task-container');
-
 
 const validateInput = () => inputElement.value.trim().length > 0;
 
 const handleAddTask = () => {
     const inputIsValid = validateInput();
-
-    console.log(inputIsValid);
 
     if (!inputIsValid){
         return inputElement.classList.add("error");
@@ -21,43 +17,49 @@ const handleAddTask = () => {
     const taskContent = document.createElement('p');
     taskContent.innerText = inputElement.value;
 
-    taskContent.addEventListener('click', () => handleClick(taskContent))
+    taskContent.addEventListener('click', () => handleClick(taskContent));
 
     const deleteItem = document.createElement('i');
-    deleteItem.classList.add("far");
-    deleteItem.classList.add("fa-trash-alt");
-
-    deleteItem.addEventListener('click', () => handleDeleteClick());
-
-
+    deleteItem.classList.add("far", "fa-trash-alt");
+    deleteItem.addEventListener('click', () => handleDeleteClick(taskItemContainer, taskContent));
 
     taskItemContainer.appendChild(taskContent);
     taskItemContainer.appendChild(deleteItem);
-
-    taskItemContainer.appendChild(taskContent);
+    taskContainer.appendChild(taskItemContainer);
 
     inputElement.value = "";
-
 };
 
 const handleClick = (taskContent) => {
     const tasks = taskContainer.childNodes;
+
     for (const task of tasks){
         if (task.firstChild.isSameNode(taskContent)){
             task.firstChild.classList.toggle("completed");
         }
     }
-}
+};
+
+
+const handleDeleteClick = (taskItemContainer, taskContent) => {
+    const tasks = taskContainer.childNodes;
+
+    for (const task of tasks){
+        if (task.firstChild.isSameNode(taskContent)){
+            taskItemContainer.remove();
+        }
+
+    }
+};
+
+
 
 const handleInputChange = () => {
     const inputIsValid = validateInput();
-
     if (inputIsValid){
-        return inputElement.classList.remove("error");
+        inputElement.classList.remove("error");
     }
-}
-
+};
 
 addTaskButton.addEventListener("click", () => handleAddTask());
-
-inputElement.addEventListener("chenge", handleInputChange());
+inputElement.addEventListener("change", () => handleInputChange());
