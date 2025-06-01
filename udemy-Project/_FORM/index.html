@@ -3,16 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios em HTML e CSS</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <h2>Formularios HTML</h2>
-    <form>
+    <!--1 primeiro Formulario -->
+    <!--2 Atributos do Formulario-->
+    <form action="/enviar/formulario" method="post">
         <div>
             <label>Nome:</label>
             <input type="text" />
         </div>
+        <!-- 3 - Atributo name-->
+         <div>
+            <!-- 4 - Atributo Label-->
+            <label for="age">Idade: </label>
+            <input type="text" name="age">
+         </div>
+         <!-- 5 Select -->
+          <div>
+            <label for="job">Selecione a sua profissão: </label>
+            <select name="job" id="">
+                <option value="programador">programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOps</option>
+            </select>
+
+          </div>
+            <!--7 Atributo select-->
+          <div>
+            <label for="contract">Você leu os termos do contrato</label>
+            <select name="contract" >
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+          </div>
+          <!--8 Multiplas opções-->
+          <div>
+            <label for="items">Selecione os Itens desejados</label>
+            <select name="items" multiple>
+                <option value="pera">Pera</option>
+                <option value="feijao">Feijão</option>
+                <option value="arroz">Arroz</option>
+                <option value="milho">Milho</option>
+            </select>
+          </div>
+          <!-- 9 textarea -->
+           <div>
+            <label for="comment">Escreva abaixo o que você achou do post: </label>
+            <textarea name="comment"></textarea>
+           </div>
+          <!--6 Envio de form-->
+         <input type="submit" value="Enviar"/>
     </form>
 </body>
 </html>
