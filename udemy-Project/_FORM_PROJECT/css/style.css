@@ -48,3 +48,13 @@ input[type="file"]{
     color: #ffff;
     margin-top: 0;
 }
+
+
+/*form container*/
+.form-container{
+    background-color: #fcfcfc;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -62px;
+}
