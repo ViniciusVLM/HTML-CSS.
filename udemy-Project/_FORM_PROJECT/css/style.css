@@ -1,0 +1,50 @@
+/* Reset*/ 
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #eae0fcf5;
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+
+p,
+label {
+    color: #444;
+
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px  0;
+    
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"]
+input[type="file"]{
+    width: 400px;
+}
+
+
+/*Header*/
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #9861f8d0;
+}
+
+
+.header h3 {
+    color: #ffff;
+    margin-top: 0;
+}
