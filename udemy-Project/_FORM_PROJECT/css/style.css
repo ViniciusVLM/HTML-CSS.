@@ -63,3 +63,27 @@ textarea{
     position: relative;
     top: -62px;
 }
+
+
+/* form header */
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p{
+    color: #9861f8d0;
+    border-bottom: 2px solid #9861f8d0;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+
+
+
+
