@@ -76,6 +76,43 @@ body{
     justify-content: end;
 }
 
+/* align items */
+.align-center,
+.flex-end,
+.stretch {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.align-center .box,
+.flex-end .box,
+.stretch .box{
+    width: 50px;
+}
+
+.align-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+
+.stretch{
+    align-items: stretch;
+
+}
+
+.stretch .box{
+    height: auto;
+}
+
+
+
 
 
 
