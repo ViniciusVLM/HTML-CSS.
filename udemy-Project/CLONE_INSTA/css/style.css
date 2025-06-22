@@ -105,5 +105,53 @@ body{
     font-size: 14px;
 }
 
+/* FACEBOOK LOGIN */
+#facebook-login {
+    margin-bottom: 25px;
+    
+}
+
+
+#facebook-login a{
+    text-decoration: none;
+    align-items: center;
+    color: #385185;
+    display: flex;
+    justify-content: center;
+    
+}
+#facebook-login img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    
+}
+
+#facebook-login span{
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: 1px;
+}
+
+/*FORGOT PASSWORD*/
+#forgot-pass{
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+#forgot-pass a{
+    text-decoration: none;
+    color: #373799;
+
+}
+
+
+
+
+
+
+
+
+
 
 
