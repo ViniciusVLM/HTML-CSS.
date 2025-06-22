@@ -144,3 +144,68 @@ body{
 }
 
 
+/* grow */
+.grow{
+    display: flex;
+}
+
+.grow .box{
+    flex: 1;
+}
+
+.grow .big{
+    flex: 2;
+}
+
+/* basis */
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 20px;
+}
+
+.basis .big {
+    flex-grow: 1;
+    border: 1px solid red;
+}
+
+/* shrink */
+.shrink {
+    display: flex;
+
+}
+
+.shrink .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 250px;
+    width: auto;
+}
+
+
+.shrink .small{
+    flex-shrink: 5;
+}
+
+.shorthand{
+    display: flex;
+
+}
+
+
+.shorthand .box{
+    width: auto;
+    flex: 1 1 50px;
+
+}
+
+.shorthand .different{
+    flex: 3 1 400px;
+}
+
+
+
+
+
