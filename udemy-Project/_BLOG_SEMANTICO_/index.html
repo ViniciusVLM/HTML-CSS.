@@ -7,6 +7,80 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Testando</h1>
+    <header>
+        <nav>
+            <div id="navbar-inner">
+                <h2>Blog</h2>
+                <ul id="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categorias</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main id="posts-container">
+            <article class="post">
+                <img src="img/f1.jpg" alt="Passeio de Barco">
+                <h3 class="title"><a href="">Algum Titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam provident mollitia animi, deserunt dolorum qui veniam tempora corrupti repellendus porro culpa aliquid cumque sint eius odit id ratione beatae?</p>
+                <a href="#">Ler mais</a>
+            </article>
+
+            <article class="post">
+                <img src="img/f2.jpg" alt="Cachoeira">
+                <h3 class="title"><a href="">Outro Titulo</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam provident mollitia animi, deserunt dolorum qui veniam tempora corrupti repellendus porro culpa aliquid cumque sint eius odit id ratione beatae?</p>
+                <a href="#">Ler mais</a>
+            </article>
+
+            <article class="post">
+                <img src="img/f3.jpg" alt="Balões">
+                <h3 class="title"><a href="">Mais um blog posts</a></h3>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores laboriosam provident mollitia animi, deserunt dolorum qui veniam tempora corrupti repellendus porro culpa aliquid cumque sint eius odit id ratione beatae?</p>
+                <a href="#">Ler mais</a>
+            </article>
+        </main>
+        <aside id="sidebar">
+            <section id="search-bar">
+                <h4>Busca</h4>
+                <form>
+                    <input type="text" placeholder="Pesquise no blog">
+                    <input type="submit" value="Buscar">
+                </form>
+            </section>
+            <section id="categories">
+                <h4>Categorias</h4>
+                <nav>
+                    <ul>
+                        <li><a href="#">Paisagens</a></li>
+                        <li><a href="#">Aventura</a></li>
+                        <li><a href="#">Viagens longas</a></li>
+                        <li><a href="#">Florestas</a></li>
+                        <li><a href="#">Cachoeiras</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section id="tags">
+                <h4>Tags</h4>
+                <div class="tags-containers">
+                    <a href="#">Lifestyle</a>
+                    <a href="#">Viagem</a>
+                    <a href="#">Barco</a>
+                    <a href="#">Trilha</a>
+                    <a href="#">Tirolesa</a>
+                    <a href="#">Rafting</a>
+                    <a href="#">Parapente</a>
+                </div>
+            </section>
+        </aside>
+    </div>
+    <footer id="footer">
+        <h2>Blog</h2>
+        <p>Os melhores registros de aventuras</p>
+        <p>2025 &copy; Vinicius lourenço</p>
+
+    </footer>
 </body>
 </html>
