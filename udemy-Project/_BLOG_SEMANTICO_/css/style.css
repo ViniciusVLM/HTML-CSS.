@@ -16,6 +16,70 @@ a{
     transition: 0.4s;
 }
 
+a:hover {
+    color: #37a1f7;
+}
+
+
+/* Navbar */
+
+#navbar {
+    padding: 1.5rem 2.5rem;
+    border-bottom: 2px solid #dddd;
+}
+
+#navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#nav-links{
+    display: flex;
+    gap: 1rem;
+}
+
+/* conteudo principal */
+
+.container{
+    display: flex;
+    gap: 3rem;
+    padding: 2rem 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto ;
+
+}
+
+#posts-container{
+    flex: 3 1 0;
+}
+
+.post{
+    margin-bottom: 2.5rem;
+}
+
+.post img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.title,
+.description,
+.author {
+    margin-bottom: 1rem;
+}
+
+
+.title{
+    font-size: 2rem;
+}
+
+.author{
+    font-weight: bold;
+}
+
 
 
 
