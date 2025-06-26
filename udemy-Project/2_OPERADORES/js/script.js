@@ -21,6 +21,13 @@ console.log(typeof - Infinity);
 
 console.log( 12 * "asd")
 
-console.log(typeof NaN)
+console.log(typeof NaN);
 
+// 4 - strings 
 
+console.log("Um texto")
+console.log("Mais um texto")
+console.log("13")
+
+console.log(typeof "Um texto")
+console.log(typeof "mais um")
