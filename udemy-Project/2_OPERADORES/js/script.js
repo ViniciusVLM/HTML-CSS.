@@ -31,3 +31,10 @@ console.log("13")
 
 console.log(typeof "Um texto")
 console.log(typeof "mais um")
+
+// 5 - Simbolos especiais em String
+
+console.log("Testando a quebra de linha")
+
+
+
