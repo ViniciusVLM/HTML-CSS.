@@ -80,6 +80,36 @@ console.log(9 != "9")
 
 console.log(9 !== "9")
 
+// 11 - Operadores logicos
+
+console.log (true && true)
+
+console.log (true && true)
+
+console.log( 5 > 2 && 2 < 10 )
+
+console.log( 5 > 2 && "Vincius" === 2  )
+
+console.log( 5 > 2 || "Vincius" === 2  )
+
+console.log( 5 < 2 || 5 < 2 )
+
+console.log( !true)
+
+console.log(!5 > 2)
+
+
+// 12 - empty values
+
+console.log(typeof null, typeof undefined)
+
+console.log( null === undefined)
+
+console.log( null == undefined)
+
+console.log(undefined == false)
+
+console.log(null == false)
 
 
 
