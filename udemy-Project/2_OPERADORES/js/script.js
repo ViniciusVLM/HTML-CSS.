@@ -34,7 +34,54 @@ console.log(typeof "mais um")
 
 // 5 - Simbolos especiais em String
 
-console.log("Testando a quebra de linha")
+console.log("Testando a \nquebra de linha")
+
+console.log("Espaçamento \tde tab")
+
+// 6 - Cocatenação 
+console.log("Oi," + "tudo" + "bem?")
+
+console.log("Testando" + "com" + "Crase")
+
+
+// 7 - Template Strings
+console.log(`A soma de 2 + 2 é: ${2 + 2}`)
+
+console.log(`Podemos executar qualquer coisa aqui ${console.log("teste")}`)
+
+// 8 - Boolean
+
+console.log(true);
+
+console.log(5 > 20);
+
+console.log(30 > 10)
+
+console.log(typeof false)
+
+// 9 - comparações 
+console.log( 5 <= 5);
+
+console.log(5 < 5);
+
+console.log(10 == 10)
+
+console.log(10 == 9)
+
+console.log(10 != 9)
+
+// 10 - Identico
+
+console.log( 9 == "9")
+
+console.log(9 === "9")
+
+console.log(9 != "9")
+
+console.log(9 !== "9")
+
+
+
 
 
 
