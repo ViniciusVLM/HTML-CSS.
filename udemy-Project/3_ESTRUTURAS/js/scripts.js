@@ -197,6 +197,18 @@ for(let g = 20; g > 10; g--){
     }
 }
 
+// 15 -  Continue
+
+for(let s = 0; s < 10; s = s + 1){
+    //operador de resto = % 
+    if(s % 2 === 0){
+        console.log("Numero par!")
+        continue;
+    }
+
+    console.log(s)
+}
+
 
 
 
